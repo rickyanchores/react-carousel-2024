@@ -1,4 +1,6 @@
 import React from 'react'
+import Slider from "react-slick";
+import CarouselItem from '../CarouselItem/CarouselItem';
 
 const Carousel = () => {
   return (
@@ -11,4 +13,4 @@ const Carousel = () => {
   )
 }
 
-export default Carousel
+export default Carousel;

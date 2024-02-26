@@ -7,7 +7,7 @@ import { CarouselTransition } from './components/CarouselTransition/CarouselTran
 
 const App = () => {
   return (
-    <div className='App min-h-screen flex flex-col justify-center items-center'>
+    <div className='App flex flex-col justify-center items-center'>
           <h1>Carousel Material Tailwind</h1>
           <CarouselTransition />
     </div>

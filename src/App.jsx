@@ -1,13 +1,15 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import Carousel from './components/Carousel/Carousel'
+import { CarouselTransition } from './components/CarouselTransition/CarouselTransition'
+
 
 
 const App = () => {
   return (
     <div className='App min-h-screen flex flex-col justify-center items-center'>
-          <Carousel />
+          <h1>Carousel Material Tailwind</h1>
+          <CarouselTransition />
     </div>
   )
 }
